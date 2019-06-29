@@ -1076,5 +1076,7 @@ BO_ 1827 STATISCH: 8 XXX
 
 BO_ 1306 UNBEKANNT: 8 XXX
  SG_ NEW_SIGNAL_1 : 46|2@1+ (1,0) [0|15] "" XXX
- SG_ Temperatur? : 55|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 12|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 8|1@1+ (1,0) [0|3] "" XXX
+ SG_ _Temperatur_ : 55|8@0+ (1,0) [0|255] "" XXX
