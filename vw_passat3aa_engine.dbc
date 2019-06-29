@@ -856,7 +856,6 @@ BO_ 416 Bremse_1: 8 XXX
  SG_ Schlechtwegausblendung : 13|1@1+ (1,0) [0|0] "" XXX
  SG_ Fahrer_bremst__Bremse_1___4_1_ : 11|1@1+ (1,0) [0|0] "" XXX
  SG_ Bremskontroll_Lampe : 10|1@1+ (1,0) [0|0] "" XXX
- SG_ Lampe_ASR___ESP : 9|1@1+ (1,0) [0|0] "" XXX
  SG_ Lampe_ABS : 8|1@1+ (1,0) [0|0] "" XXX
  SG_ EBV_Eingriff : 7|1@1+ (1,0) [0|0] "" XXX
  SG_ ASR_Schaltbeeinflussung : 5|2@1+ (1,0) [0|0] "" XXX
@@ -866,6 +865,7 @@ BO_ 416 Bremse_1: 8 XXX
  SG_ MSR_Anforderung : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ ASR_Anforderung : 0|1@1+ (1,0) [0|0] "" XXX
  SG_ MSR_Eingriffsmoment : 48|8@1+ (0.39,0) [0|99.06] "MDI" XXX
+ SG_ Lampe_ASR___ESP : 9|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 680 Bremsbooster_1: 3 XXX
  SG_ Fehlerspeichereintrag_Booster : 23|1@1+ (1,0) [0|0] "" XXX
@@ -1076,7 +1076,18 @@ BO_ 1827 STATISCH: 8 XXX
 
 BO_ 1306 UNBEKANNT: 8 XXX
  SG_ NEW_SIGNAL_1 : 46|2@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 12|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_4 : 8|1@1+ (1,0) [0|3] "" XXX
- SG_ _Temperatur_ : 55|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 1423 NEW_MSG_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 1523 UNBEKANNT: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 2000 NEW_MSG_3: 8 XXX
+
+BO_ 1512 STATISCH: 8 XXX
+
+BO_ 1490 NEW_MSG_4: 8 XXX
+
+BO_ 1162 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_1 : 37|6@0+ (1,0) [0|255] "" XXX
