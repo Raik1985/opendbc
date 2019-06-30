@@ -704,23 +704,23 @@ BO_ 1340 Fahrwerk_1: 1 XXX
  SG_ Ansteuererung_Fahrzeugniveau : 0|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 1472 EPB_1: 8 XXX
- SG_ Textmeldungen_EPB : 52|4@1+ (1,0) [0|0] "" XXX
  SG_ Aufmerksamkeits_Gtong_EPB : 51|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehler_Gong_EBP : 50|1@1+ (1,0) [0|0] "" XXX
  SG_ Warnton_EPB : 49|1@1+ (1,0) [0|0] "" XXX
- SG_ Funktionslampe_EPB : 48|1@1+ (1,0) [0|0] "" XXX
  SG_ Frei_EPB_1_1 : 33|15@1+ (1,0) [0|0] "" XXX
  SG_ Fehlerspeichereintrag_EPB : 32|1@1+ (1,0) [0|0] "" XXX
  SG_ Neigungswinkel : 24|8@1+ (1,-128) [-128|127] "g" XXX
  SG_ Verzoegerungsanforderung__EPB_ : 24|8@1+ (0.5,0) [0|255] "g" XXX
  SG_ Status_Neigungswinkelgeber : 15|1@1+ (1,0) [0|0] "" XXX
  SG_ Schalterinfo_Parkbremse : 13|2@1+ (1,0) [0|0] "" XXX
- SG_ Erreichte_Spannkraft : 8|5@1+ (1,0) [0|30] "kN" XXX
- SG_ Checksumme_Parkbremse : 8|8@1+ (1,0) [0|255] "" XXX
- SG_ Schalterstatus_Parkbremse : 7|1@1+ (1,0) [0|0] "" XXX
  SG_ Status_Parkbremse : 6|1@1+ (1,0) [0|0] "" XXX
  SG_ Fehlerstatus_Parkbremse : 4|2@1+ (1,0) [0|0] "" XXX
  SG_ Zaehler_Parkbremse : 0|4@1+ (1,0) [0|0] "" XXX
+ SG_ Schalterstatus_Parkbremse : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Textmeldungen_EPB : 52|4@1+ (1,0) [0|0] "" XXX
+ SG_ Fehler_Gong_EBP : 50|1@1+ (1,0) [0|0] "" XXX
+ SG_ Funktionslampe_EPB : 48|1@1+ (1,0) [0|0] "" XXX
+ SG_ Erreichte_Spannkraft : 8|5@1+ (1,0) [0|30] "kN" XXX
+ SG_ Checksumme_Parkbremse_PHz : 8|8@1+ (01,0) [0|255] "" XXX
 
 BO_ 1326 Diag_Lenkhilfe: 3 XXX
  SG_ Werkstattcode__Diag_ : 16|8@1+ (1,0) [0|0] "" XXX
@@ -1022,7 +1022,7 @@ BO_ 428 UNBEKANNT: 8 XXX
 BO_ 644 Zaehler: 8 XXX
  SG_ Zaehler : 15|7@0+ (1,0) [0|127] "" XXX
 
-BO_ 928 Motor_FM: 8 XXX
+BO_ 928 Bremse_FM: 8 XXX
  SG_ ZAEHLER : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ Zaehler_high_aendernder_frequenz : 39|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
