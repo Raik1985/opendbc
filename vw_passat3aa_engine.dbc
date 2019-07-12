@@ -1014,10 +1014,18 @@ BO_ 208 UNBEKANNT: 8 XXX
  SG_ Zaehler : 0|16@1+ (1,0) [0|255] "" XXX
 
 BO_ 428 Bremse_8: 8 XXX
- SG_ Pruefsumme : 0|8@1+ (0,0) [4|5] "," 1
- SG_ Botschaftszaehler : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Status Bremse ACC Anforderung : 12|1@0+ (1,0) [0|1] "" XXX
- SG_ Verzogerung durch EPB aktiviert : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ Checksumme : 0|8@1+ (0,0) [4|5] "," 1
+ SG_ Zaehler : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Verzoegerung_durch_EPB_aktiviert : 13|1@0+ (1,0) [0|1] "" XXX
+ SG_ Sta_ACC_Anf : 12|1@0+ (1,0) [0|1] "" XXX
+ SG_ FahrzeugbeschleunigungACC : 32|9@1+ (1,0) [0|255] "" XXX
+ SG_ Laengsbeschleunigung : 48|10@1+ (1,0) [0|1] "" XXX
+ SG_ EPB_Botschaft_plausibel : 63|1@0+ (1,0) [0|1] "" XXX
+ SG_ Status_Verzoegerungsregler : 60|1@0+ (1,0) [0|1] "" XXX
+ SG_ Front_Quattro_Antrieb : 59|1@0+ (1,0) [0|1] "" XXX
+ SG_ ACC_Botschaft_konsistent : 58|1@0+ (1,0) [0|1] "" XXX
+ SG_ Verzoegerungsregler_f_EPB_Verf : 62|1@0+ (1,0) [0|1] "" XXX
+ SG_ Status_BLS : 61|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 644 Zaehler: 8 XXX
  SG_ Zaehler : 15|7@0+ (1,0) [0|127] "" XXX
