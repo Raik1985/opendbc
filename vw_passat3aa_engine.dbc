@@ -1019,13 +1019,15 @@ BO_ 428 Bremse_8: 8 XXX
  SG_ Verzoegerung_durch_EPB_aktiviert : 13|1@0+ (1,0) [0|1] "" XXX
  SG_ Sta_ACC_Anf : 12|1@0+ (1,0) [0|1] "" XXX
  SG_ FahrzeugbeschleunigungACC : 32|9@1+ (1,0) [0|255] "" XXX
- SG_ Laengsbeschleunigung : 48|10@1+ (1,0) [0|1] "" XXX
  SG_ EPB_Botschaft_plausibel : 63|1@0+ (1,0) [0|1] "" XXX
  SG_ Status_Verzoegerungsregler : 60|1@0+ (1,0) [0|1] "" XXX
  SG_ Front_Quattro_Antrieb : 59|1@0+ (1,0) [0|1] "" XXX
  SG_ ACC_Botschaft_konsistent : 58|1@0+ (1,0) [0|1] "" XXX
  SG_ Verzoegerungsregler_f_EPB_Verf : 62|1@0+ (1,0) [0|1] "" XXX
  SG_ Status_BLS : 61|1@0+ (1,0) [0|1] "" XXX
+ SG_ Laengsbeschleunigung : 48|10@1+ (1,0) [0|1] "" XXX
+ SG_ Status_aktives_Bremssystem : 47|1@0+ (1,0) [0|1] "" XXX
+ SG_ Fahrer_bremst : 46|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 644 Zaehler: 8 XXX
  SG_ Zaehler : 15|7@0+ (1,0) [0|127] "" XXX
