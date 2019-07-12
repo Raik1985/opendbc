@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: XXX t _ e f S c a I i
+BU_: XXX t _ e f S c a I i  1
 
 
 BO_ 1394 ZAS_1: 2 XXX
@@ -1014,28 +1014,8 @@ BO_ 208 UNBEKANNT: 8 XXX
  SG_ Zaehler : 0|16@1+ (1,0) [0|255] "" XXX
 
 BO_ 428 Bremse_8: 8 XXX
- SG_ Status aktives Bremssystem : 47|1@1+ (1,0) [0|1] "" XXX
- SG_ Fahrer bremst : 46|1@1+ (1,0) [0|1] "" XXX
- SG_ Qualifizierungsbit Längsbeschleunigung : 42|1@1+ (1,0) [0|3] "" XXX
- SG_ Aktives Bremssystem : 45|1@1+ (1,0) [0|1] "" XXX
- SG_ Anzeige 'ESC Mode' : 43|2@1+ (1,0) [0|1] "" XXX
- SG_ ACC Botschaft konsistent : 58|1@0+ (1,0) [0|1] "" XXX
- SG_ Längsbeschleunigung : 48|10@1+ (1,0) [0|255] "" XXX
- SG_ Front / Quattro Antrieb : 59|1@0+ (1,0) [0|1] "" XXX
- SG_ Status Verzögerungsregler : 60|1@0+ (1,0) [0|1] "" XXX
- SG_ Status BLS : 61|1@0+ (1,0) [0|1] "" XXX
- SG_ Verzögerungsregler für EPB verfügbar : 62|1@0+ (1,0) [0|1] "" XXX
- SG_ EPB Botschaft plausible : 63|1@0+ (1,0) [0|1] "" XXX
+ SG_ Prüfsumme : 0|8@1+ (0,0) [4|5] "," 1
  SG_ Botschaftszähler : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Status Bremse ACC-Anforderung : 12|1@1+ (1,0) [0|3] "" XXX
- SG_ Verzögerung durch EPB aktiviert : 13|1@1+ (1,0) [0|3] "" XXX
- SG_ Status Bremse Bremstemperatur : 14|1@1+ (1,0) [0|3] "" XXX
- SG_ Status Bremsdruck : 15|1@1+ (1,0) [0|1] "" XXX
- SG_ Reifentoleranzabgleich Rad HL : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ Reifentoleranzabgleich Rad HR : 24|8@1+ (1,0) [0|1] "" XXX
- SG_ Fahrzeugbeschleunigung als Referenzwert für ACC : 32|9@1+ (1,0) [0|255] "" XXX
- SG_ Status Hardware BLS-Ausgang : 41|1@1+ (1,0) [0|3] "" XXX
- SG_ Prüfsumme : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 644 Zaehler: 8 XXX
  SG_ Zaehler : 15|7@0+ (1,0) [0|127] "" XXX
