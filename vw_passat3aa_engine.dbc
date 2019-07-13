@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: XXX t _ e f S c a I i  1
+BU_: XXX t _ e f S c a I i 1
 
 
 BO_ 1394 ZAS_1: 2 XXX
@@ -714,14 +714,14 @@ BO_ 1472 EPB_1: 8 XXX
  SG_ Schalterinfo_Parkbremse : 13|2@1+ (1,0) [0|0] "" XXX
  SG_ Status_Parkbremse : 6|1@1+ (1,0) [0|0] "" XXX
  SG_ Fehlerstatus_Parkbremse : 4|2@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler_Parkbremse : 0|4@1+ (1,0) [0|0] "" XXX
  SG_ Schalterstatus_Parkbremse : 7|1@1+ (1,0) [0|0] "" XXX
  SG_ Fehler_Gong_EBP : 50|1@1+ (1,0) [0|0] "" XXX
  SG_ Funktionslampe_EPB : 48|1@1+ (1,0) [0|0] "" XXX
  SG_ Erreichte_Spannkraft : 8|5@1+ (1,0) [0|30] "kN" XXX
  SG_ Checksumme_Parkbremse_PHz : 8|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ Textmeldungen_EPB : 52|4@1+ (1,0) [0|0] "" XXX
+ SG_ Zaehler_Parkbremse : 0|4@1+ (1,0) [0|0] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 1326 Diag_Lenkhilfe: 3 XXX
  SG_ Werkstattcode__Diag_ : 16|8@1+ (1,0) [0|0] "" XXX
@@ -1076,7 +1076,7 @@ BO_ 978 UNWICHTIG: 8 XXX
 
 BO_ 1494 STATISCH: 8 XXX
 
-BO_ 1500 STATISCH: 8 XXX
+BO_ 1500 Soll_Verbauliste_neu: 8 XXX
 
 BO_ 915 STATISCH: 8 XXX
 
@@ -1097,7 +1097,15 @@ BO_ 2000 NEW_MSG_3: 8 XXX
 
 BO_ 1512 STATISCH: 8 XXX
 
-BO_ 1490 NEW_MSG_4: 8 XXX
+BO_ 1490 Ident: 8 XXX
+ SG_ IDT_VIN_13 : 24|8@1+ (1,0) [0|1] "" XXX
+ SG_ IDT_VIN_8 : 40|8@1+ (1,0) [0|63] "" XXX
+ SG_ IDT_VIN_15 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ IDT_VIN_16 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ IDT_VIN_14 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ IDT_VIN_7 : 32|8@1+ (1,0) [0|63] "" XXX
+ SG_ IDT_VIN_17 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ IDT_Mux : 0|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1162 NEW_MSG_5: 8 XXX
  SG_ NEW_SIGNAL_1 : 37|6@0+ (1,0) [0|255] "" XXX
